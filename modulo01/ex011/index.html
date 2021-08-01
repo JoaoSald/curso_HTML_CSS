@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em html5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+<p>Tente abrir esse site em vários 
+    dispositivos diferentes ou simplesmente
+    aumente e diminua o tamanho do seu navegador
+    </p>
+    <!--tag picture e source
+    muda o tamanho da imagem fazendo uma dinâmica bacana 
+    -->
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/media.png" type="image/png">
+        <img src="imagens/grande.png" alt="imagem flexivel">
+    </picture>
+
+    <p>vá para a pagina 2 para escutar ou baixar a música <a href="pag.html" rel="next">clique aqui</a>
+    </p>
+</body>
+</html>
