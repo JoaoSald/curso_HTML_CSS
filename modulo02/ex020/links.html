@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+      a:visited {
+          color: darkred;
+      }
+
+      a:hover{
+          color: black;
+          text-decoration: underline;
+      }
+
+      a:active{
+          color: yellow;
+      }
+
+      a::before{
+          content: '✩';
+      }
+
+      a::after{
+          content: ' [link]';
+          text-decoration: none;
+          font-weight: normal;
+          color: darkgrey;
+      }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li> <a href="https://github.com/JoaoSald" target="_blank">Repositorio github</a> </li> 
+        <li> <a href="https://www.youtube.com/channel/UCJmfZohJhPKrD0zf5C6w0ow">Canal YT</a> </li>
+        <li>  <a href="https://twitter.com/sald_joao"> TT</a></li>
+    </ul>
+    
+    <!-- Target="_blank" faz abrir o link em outra guia -->
+     
+    <h1>Simbolos css estudados ate agora</h1>
+    <p style="margin-left: 50px;">
+        # = id <br>
+        . = class <br>
+        : = pseudo-class <br>
+        :: = pseudo-element <br>
+        > = children 
+    </p>
+
+</body>
+</html>
